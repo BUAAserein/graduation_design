@@ -684,14 +684,14 @@ The LaTeX template for thesis of BUAA]
                         \zihao{-3}\heiti
                         \ifbuaa@twoteacher
                             \begin{tabular}{cc}
-                                学~~~院~~~名~~~称~~&\ulinecvcbc{\buaa@school}\\[.4ex]
+                                学~~~院~~~名~~~称~~&\ulinecvcbc{\buaa@school 学院}\\[.4ex]
                                 专~~~业~~~名~~~称~~&\ulinecvcbc{\buaa@major}\\[.4ex]
                                 学~~~生~~~姓~~~名~~&\ulinecvcbc{\buaa@thesisauthor}\\[.4ex]
                                 指~~~导~~~教~~~师~~&\ulinecvcbc{\buaa@teacher \quad \buaa@subteacher}\\
                             \end{tabular}
                         \else
                             \begin{tabular}{cc}
-                                学~~~院~~~名~~~称~~&\ulinecvcbc{\buaa@school}\\[.4ex]
+                                学~~~院~~~名~~~称~~&\ulinecvcbc{\buaa@school 学院}\\[.4ex]
                                 专~~~业~~~名~~~称~~&\ulinecvcbc{\buaa@major}\\[.4ex]
                                 学~~~生~~~姓~~~名~~&\ulinecvcbc{\buaa@thesisauthor}\\[.4ex]
                                 指~~~导~~~教~~~师~~&\ulinecvcbc{\buaa@teacher}\\
@@ -1124,7 +1124,7 @@ The LaTeX template for thesis of BUAA]
         兼职教师或答疑教师（并指出所负责部分）：\\
         \ulinel{}
         \ulinel{}
-        \ulinec[.28]{}系（教研室） 主任（签字）：\ulinec[.28]{} \\
+        \ulinec[.28]{21}系（教研室） 主任（签字）：\ulinec[.28]{} \\
         \vfill
         注：任务书应该附在已完成的毕业设计（论文）的首页。
         \end{spacing}
